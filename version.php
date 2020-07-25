@@ -29,3 +29,6 @@ defined('MOODLE_INTERNAL') || die();
 $plugin->version   = 2020061501;        // The current plugin version (Date: YYYYMMDDXX).
 $plugin->requires  = 2019111200;        // Requires this Moodle version.
 $plugin->component = 'tool_bulk_backupandrestore';    // Full name of the plugin (used for diagnostics).
+$plugin->maturity  = MATURITY_STABLE;
+$plugin->release   = '1.0.0';
+
