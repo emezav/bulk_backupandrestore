@@ -1,6 +1,8 @@
 # Bulk backup and restore
 
-This plugin allows site administrators to perform bulk course backup and restore. Each course backup/restore is performed on a separate AJAX request.
+This plugin allows site administrators to perform bulk course backup and restore.
+
+The web interface uses a separate AJAX request for each backup/restore.
 
 ## Installation
 
@@ -27,4 +29,9 @@ This plugin also allows performing restore from backup files stored on the serve
 - Restore blocks (1 = restore, 0 = do not restore)
 
 
+## CLI interface
+ 
+There are CLI scripts to perform backup/restore of course categories. Run the CLI scripts without parameters to get the help:
+
+sudo -u apache admin/tool/bulk_backupandrestore/backup.php
 

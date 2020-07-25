@@ -24,9 +24,11 @@
  * @since Moodle 3.5
  */
 
+/*
 ini_set('error_reporting', E_ALL);
 ini_set('display_errors', 'On');
 ini_set('display_startup_errors', 'On');
+*/
 
 require_once(dirname(__FILE__) . '/../../../config.php');
 require_once($CFG->libdir . '/outputcomponents.php');

@@ -64,7 +64,7 @@ if ($unrecognized) {
 }
 
 $help = <<<EOL
-Perform backup of the given course.
+Perform a course restore from a MBZ file.
 
 Options:
 -c,--categoryid=INTEGER              Category ID to restore the course

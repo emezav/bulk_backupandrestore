@@ -26,12 +26,12 @@
 define('CLI_SCRIPT', 1);
 
 //Assume we are on WWROOT/admin/tool/bulk_backupandrestore/cli
-require(__DIR__.'/../../../../config.php');
+require(dirname(__FILE__) . '/../../../../config.php');
 
 require_once($CFG->libdir.'/clilib.php');
 require_once($CFG->libdir.'/coursecatlib.php');
 
-require(__DIR__.'/../lib.php');
+require(dirname(__FILE__) . '/../lib.php');
 
 // Now get cli options.
 list($options, $unrecognized) = 
@@ -59,7 +59,7 @@ if ($unrecognized) {
 }
 
 $help = <<<EOL
-Perform bulk course restore from category backup
+Perform bulk course restore from CLI category backup
 
 Options:
 -s,--source=STRING             Path of stored bulk backup
