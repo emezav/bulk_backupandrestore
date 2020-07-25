@@ -33,5 +33,7 @@ This plugin also allows performing restore from backup files stored on the serve
  
 There are CLI scripts to perform backup/restore of course categories. Run the CLI scripts without parameters to get the help:
 
-sudo -u apache admin/tool/bulk_backupandrestore/backup.php
+- Backup course category: sudo -u apache admin/tool/bulk_backupandrestore/cli/backup.php
+- Restore course category: sudo -u apache admin/tool/bulk_backupandrestore/cli/restore.php
+- Restore individual course: sudo -u apache admin/tool/bulk_backupandrestore/cli/restore_course.php
 
