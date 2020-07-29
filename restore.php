@@ -310,7 +310,7 @@ function validate_restore_record(&$obj) {
   }
 
   if ($obj->idnumber) {
-    $course = $DB->get_record('course', ['idnumber' => $idnumber]);
+    $course = $DB->get_record('course', ['idnumber' => $obj->idnumber]);
     if ($course) {
       $obj->errors[] = get_string('idnumberexists', 'tool_bulk_backupandrestore');
     }
