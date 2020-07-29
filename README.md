@@ -6,7 +6,7 @@ The web interface uses a separate AJAX request for each backup/restore.
 
 ## Installation
 
-Copy this folder into admin/tool and perform a site upgrage (via web or CLI).
+Copy this folder into admin/tool and perform a site upgrade (via web or CLI).
 
 Upon installation, go to Site Administration -> Courses -> Bulk backup and restore courses.
 
@@ -14,7 +14,7 @@ Upon installation, go to Site Administration -> Courses -> Bulk backup and resto
 
 Select a category to backup, and a target directory (with write permissions for web user - apache, nginx).  All visible courses on this category (and all sub-categories) will be backed up.
 
-When finished, a CSV file will be generated.
+When finished, a CSV file with the results will be generated.
 
 ## Bulk restore
 
